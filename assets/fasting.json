@@ -1,0 +1,370 @@
+{
+  "jeune_intermittent_chronologie": {
+    "metadata": {
+      "titre": "Chronologie détaillée du jeûne intermittent",
+      "description": "Guide complet des étapes métaboliques organisé par tranche horaire",
+      "format": "JSON",
+      "version": "2.0",
+      "organisation": "Par heure de jeûne"
+    },
+    "0": {
+      "nom": "Fin du dernier repas",
+      "duree": "Heure 0",
+      "metabolisme": {
+        "processus_principal": "Fin de l'absorption alimentaire",
+        "details": [
+          "Arrêt de l'absorption",
+          "Insuline commence à baisser progressivement",
+          "Hormones de faim (ghréline) restent basses",
+          "Première phase digestive en cours"
+        ]
+      },
+      "faim": "❌ Nulle",
+      "energie": "✅ Stable",
+      "conseils": [
+        "Terminer le repas sans sucres rapides",
+        "Éviter le stress immédiatement après",
+        "Prévoir une activité légère (marche) si possible"
+      ],
+      "hydratation": "Eau régulière",
+      "activite_physique": "Légère (marche, ménage)"
+    },
+    "0-2": {
+      "nom": "Phase post-prandiale",
+      "duree": " 1 à 2 Heures",
+      "metabolisme": {
+        "processus_principal": "Digestion active",
+        "details": [
+          "Digestion des derniers aliments",
+          "Glucose sanguin encore élevé",
+          "Insuline toujours présente",
+          "Pas encore de jeûne 'réel'"
+        ]
+      },
+      "faim": "❌ Nulle",
+      "energie": "✅ Stable",
+      "conseils": [
+        "Rester actif (marche, ménage) pour consommer le glucose",
+        "Boire de l'eau régulièrement",
+        "Ne pas consommer de caféine (trop tôt)"
+      ],
+      "hydratation": "Eau régulière",
+      "activite_physique": "Modérée (marche, ménage)"
+    },
+    "2-4": {
+      "nom": "Entrée en glycogénolyse",
+      "duree": " 2 à 4 Heures",
+      "metabolisme": {
+        "processus_principal": "Mobilisation des réserves de glucose hépatique",
+        "details": [
+          "Fin de la digestion",
+          "Insuline chute rapidement",
+          "Foie libère du glucose de ses réserves (glycogène)",
+          "Énergie stable",
+          "État anabolique (réparation tissulaire)"
+        ]
+      },
+      "faim": "❌ Minimale",
+      "energie": "✅✅ Excellent",
+      "conseils": [
+        "Moment excellent pour activité modérée (sport, marche)",
+        "Boire de l'eau + électrolytes légers si activité",
+        "Café ou thé sans sucre si énergie demandée",
+        "La faim minimale est normale"
+      ],
+      "hydratation": "Eau + électrolytes légers si activité",
+      "activite_physique": "Modérée à bonne (sport, marche active)"
+    },
+    "4-8": {
+      "nom": "Fin de la glycogénolyse",
+      "duree": "4 à 8 Heures",
+      "metabolisme": {
+        "processus_principal": "Épuisement des réserves hépatiques",
+        "details": [
+          "Réserves hépatiques de glycogène s'épuisent",
+          "Cortisol et adrénaline commencent à monter",
+          "Premiers acides gras libérés du tissu adipeux",
+          "Pic possible de ghréline (faim)"
+        ]
+      },
+      "faim": "⚠️ Peut augmenter légèrement",
+      "energia": "✅✅ Pic maximal",
+      "conseils": [
+        "🏆 MEILLEUR MOMENT pour entraînement sportif modéré",
+        "Rester bien hydraté",
+        "Éviter les repas de 'récompense' anticipée",
+        "Café ou thé peut aider si faim",
+        "Énergie mentale : idéal pour travail créatif"
+      ],
+      "hydratation": "Eau + café/thé sans sucre possible",
+      "activite_physique": "🏆 OPTIMAL - Sport modéré, musculation légère"
+    },
+    "8-12": {
+      "nom": "Transition vers lipolyse",
+      "duree": "8 à 12 Heures",
+      "metabolisme": {
+        "processus_principal": "Basculement vers métabolisme des graisses",
+        "details": [
+          "Glycogène hépatique largement épuisé",
+          "Augmentation nette des acides gras libres",
+          "Gluconéogenèse s'accélère",
+          "Possible légère fatigue",
+          "Faim variable"
+        ]
+      },
+      "faim": "⚠️⚠️ Variable",
+      "energia": "⚠️ Possible dip énergétique",
+      "conseils": [
+        "Éviter entraînement intense (risque de fatigue)",
+        "Activité légère : marche, étirements, yoga",
+        "Hydratation cruciale + électrolytes (sodium, potassium)",
+        "Se distraire (travail, lecture, socialisation)",
+        "Thé ou café sans sucre tolérés",
+        "Si fatigue : repos, éviter décisions importantes"
+      ],
+      "hydratation": "Eau + électrolytes importants",
+      "activite_physique": "Très légère (yoga, étirements, marche douce)"
+    },
+    "12-16": {
+      "nom": "Pic de lipolyse",
+      "duree": "12 à 16 Heures",
+      "metabolisme": {
+        "processus_principal": "Mobilisation maximale des graisses",
+        "details": [
+          "Mobilisation maximale des graisses stockées",
+          "Acides gras alimentent foie et muscles",
+          "Premiers corps cétoniques produits",
+          "Sensation souvent d'énergie stable",
+          "Faim minimale ou absente",
+          "Mental très clair"
+        ]
+      },
+      "faim": "❌ Minimale ou absente",
+      "energia": "✅✅✅ Stable et clair",
+      "conseils": [
+        "🎯 ZONE DE CONFORT DU JEÛNE : profiter de l'absence de faim",
+        "Activité légère possible (yoga, marche modérée)",
+        "Eau + électrolytes essentiels",
+        "Café/thé excellent pour maintenir l'état",
+        "Idéal pour tâches mentales exigeantes",
+        "Ne pas trop anticiper la rupture (rester patient)"
+      ],
+      "hydratation": "Eau + électrolytes essentiels",
+      "activite_physique": "Légère (yoga, marche modérée)"
+    },
+    "16-20": {
+      "nom": "Installation de la cétose",
+      "duree": "16 à 20 Heures",
+      "metabolisme": {
+        "processus_principal": "Cétose nutritionnelle bien établie",
+        "details": [
+          "Cétose nutritionnelle bien établie",
+          "Cétones (acétoacétate, bêta-hydroxybutyrate) utilisées par cerveau",
+          "Muscles brûlent acides gras et cétones",
+          "Peu ou pas de glucose utilisé",
+          "Faim minimale",
+          "Énergie stable",
+          "Clarté mentale maximale",
+          "Légère euphorie possible"
+        ]
+      },
+      "faim": "❌❌ Très basse",
+      "energia": "✅✅✅ Optimal",
+      "conseils": [
+        "🏅 MARQUE DU JEÛNE OPTIMAL pour la majorité",
+        "Activité légère seulement",
+        "Hydratation + électrolytes très importants",
+        "Méditation ou activités relaxantes idéales",
+        "Éviter l'alcool",
+        "Pas de besoin urgent de manger : c'est bon signe"
+      ],
+      "hydratation": "Eau + électrolytes très importants",
+      "activite_physique": "Très légère (méditation, yoga très doux)"
+    },
+    "20-24": {
+      "nom": "Cétose profonde",
+      "duree": "20 à 24 Heures",
+      "metabolisme": {
+        "processus_principal": "Cétose à son apogée avec autophagie",
+        "details": [
+          "Cétose à son apogée",
+          "Très peu d'insuline circulante",
+          "Métabolisme des graisses à 100%",
+          "Autophagie activée (nettoyage cellulaire)",
+          "Faim complètement disparue",
+          "Bien-être général souvent rapporté",
+          "Effets anti-inflammatoires maximums"
+        ]
+      },
+      "faim": "❌❌❌ Absente",
+      "energia": "✅✅✅ Bien-être complet",
+      "conseils": [
+        "🧬 AUTOPHAGIE ACTIVÉE - Repos optimal : le corps se 'nettoie'",
+        "Hydratation + électrolytes NON-NÉGOCIABLES",
+        "Activités relaxantes (méditation, lecture, sommeil)",
+        "Zéro tentation alimentaire : ranger les aliments",
+        "Journal mental : noter l'absence de faim",
+        "Effets détox maximums"
+      ],
+      "hydratation": "Eau + électrolytes NON-NÉGOCIABLES",
+      "activite_physique": "Repos complet recommandé"
+    },
+    "24-36": {
+      "nom": "Jeûne prolongé",
+      "duree": "24 à 36 Heures",
+      "metabolisme": {
+        "processus_principal": "Cétose maintenue avec intensification de l'autophagie",
+        "details": [
+          "Cétose maintenue",
+          "Réserves graisseuses toujours mobilisées",
+          "Autophagie intensifiée (détoxication cellulaire)",
+          "Hormones de jeûne bien régulées",
+          "Faim souvent très basse",
+          "Adaptation du corps complète"
+        ]
+      },
+      "faim": "❌❌❌ Très basse",
+      "energia": "✅✅✅ Avec patience requise",
+      "conseils": [
+        "⚠️ RÉSERVÉ aux personnes expérimentées",
+        "Électrolytes deviennent critiques et obligatoires",
+        "Sommeil peut être affecté (cortisol élevé le soir)",
+        "Repos physique complet recommandé",
+        "Écouter son corps (fatigue excessive = s'arrêter)",
+        "Aucune activité intense"
+      ],
+      "hydratation": "Électrolytes CRITIQUES et obligatoires",
+      "activite_physique": "Aucune - Repos complet"
+    },
+    "rupture": {
+      "nom": "Rupture du jeûne",
+      "duree": "Heure X (fin du jeûne)",
+      "metabolisme": {
+        "processus_principal": "Fin de la cétose et retour au métabolisme normal",
+        "details": [
+          "Première bouchée lance le processus inverse",
+          "Insuline remonte immédiatement",
+          "Cétose commence à s'estomper",
+          "Appareil digestif se 'réveille'",
+          "Absorption des nutriments démarre"
+        ]
+      },
+      "faim": "Variable (selon durée du jeûne)",
+      "energia": "En transition",
+      "phases": {
+        "phase_1_0-30min": {
+          "nom": "Les 30 premières minutes",
+          "actions": [
+            "Commencer par petit volume (soupe légère, bouillon)",
+            "Attendre 20-30 min avant le 'vrai' repas",
+            "Préparer le système digestif doucement"
+          ]
+        },
+        "phase_2_30-120min": {
+          "nom": "Le repas de rupture (30-120 min après)",
+          "priorites": [
+            "🥚 Protéines d'abord : œufs, poisson, viande maigre",
+            "🥑 Graisses saines : avocats, huile d'olive, noix",
+            "🥦 Légumes riches en fibres : brocoli, épinards, carottes",
+            "🥔 Minimes quantités de glucides complexes : riz brun, patate douce",
+            "❌ Zéro sucres rapides"
+          ],
+          "a_eviter": [
+            "Repas géant (surcharge digestive)",
+            "Aliments ultra-transformés",
+            "Sucres rapides (choc glycémique)",
+            "Graisses très lourdes seules"
+          ]
+        }
+      }
+    }
+  },
+  "synthese_par_tranche": {
+    "0": {
+      "etape": "Fin du dernier repas",
+      "faim": "❌ Nulle",
+      "energia": "✅ Stable",
+      "activite": "Légère (marche, ménage)",
+      "etat": "Fin absorption"
+    },
+    "1-2": {
+      "etape": "Phase post-prandiale",
+      "faim": "❌ Nulle",
+      "energia": "✅ Stable",
+      "activite": "Modérée (marche, ménage)",
+      "etat": "Digestion active"
+    },
+    "2-4": {
+      "etape": "Glycogénolyse",
+      "faim": "❌ Minimale",
+      "energia": "✅✅ Excellent",
+      "activite": "Modérée à bonne (sport, marche)",
+      "etat": "Mobilisation glycogène"
+    },
+    "4-8": {
+      "etape": "Fin glycogénolyse",
+      "faim": "⚠️ Peut augmenter",
+      "energia": "✅✅ Pic maximal",
+      "activite": "🏆 OPTIMAL - Sport modéré",
+      "etat": "Épuisement réserves"
+    },
+    "8-12": {
+      "etape": "Transition lipolyse",
+      "faim": "⚠️⚠️ Variable",
+      "energia": "⚠️ Possible dip",
+      "activite": "Très légère (yoga, étirements)",
+      "etat": "Basculement vers graisses"
+    },
+    "12-16": {
+      "etape": "Pic lipolyse",
+      "faim": "❌ Minimale",
+      "energia": "✅✅✅ Stable et clair",
+      "activite": "Légère (yoga, marche)",
+      "etat": "🎯 ZONE DE CONFORT"
+    },
+    "16-20": {
+      "etape": "Installation cétose",
+      "faim": "❌❌ Très basse",
+      "energia": "✅✅✅ Optimal",
+      "activite": "Très légère (méditation, yoga)",
+      "etat": "🏅 JEÛNE OPTIMAL"
+    },
+    "20-24": {
+      "etape": "Cétose profonde",
+      "faim": "❌❌❌ Absente",
+      "energia": "✅✅✅ Bien-être",
+      "activite": "Repos complet",
+      "etat": "🧬 AUTOPHAGIE ACTIVÉE"
+    },
+    "24-36": {
+      "etape": "Jeûne prolongé",
+      "faim": "❌❌❌ Très basse",
+      "energia": "✅✅✅ Avec patience",
+      "activite": "Aucune - Repos complet",
+      "etat": "⚠️ Expérimentés seulement"
+    }
+  },
+  "guide_rapide": {
+    "quand_faire_du_sport": {
+      "4-8h": "🏆 MEILLEUR MOMENT - glycogène disponible",
+      "2-4h": "Possible - bon pour activité légère",
+      "12-16h": "Possible - léger à modéré",
+      "autres": "Éviter - pas assez d'énergie"
+    },
+    "meilleure_clarté_mentale": {
+      "12-16h": "Très bonne",
+      "16-20h": "Excellente",
+      "20-24h": "Excellente avec bien-être"
+    },
+    "quand_la_faim_est_minimale": {
+      "2-4h": "Oui",
+      "12-16h": "Oui - zone confort",
+      "16-24h": "Très peu ou absente"
+    },
+    "quand_se_reposer": {
+      "8-12h": "Si fatigue",
+      "20-24h": "Recommandé",
+      "24-36h": "Obligatoire"
+    }
+  }
+}
