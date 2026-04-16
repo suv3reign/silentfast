@@ -1,0 +1,293 @@
+{
+  "app": {
+    "title": "SilentFasting"
+  },
+  "timer": {
+    "statusReady": "Prêt à commencer",
+    "statusRunning": "En cours",
+    "statusCompleted": "Jeûne terminé!",
+    "startFasting": "Commencer le jeûne",
+    "stopFasting": "Arrêter",
+    "newFast": "Nouveau jeûne",
+    "goalReached": "Objectif atteint!",
+    "elapsed": "Écoulé",
+    "progress": "Progression"
+  },
+  "manualForm": {
+    "title": "Ajouter un jeûne passé",
+    "startTime": "Heure de début",
+    "endTime": "Heure de fin",
+    "fastEnded": "Jeûne terminé",
+    "duration": "Durée",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "history": {
+    "title": "Historique",
+    "empty": "Aucun jeûne enregistré",
+    "duration": "Durée",
+    "completed": "Terminé",
+    "inProgress": "En cours",
+    "delete": "Supprimer"
+  },
+  "stats": {
+    "title": "Statistiques",
+    "completedFasts": "Jeûnes terminés",
+    "averageDuration": "Durée moyenne",
+    "last7Days": "7 derniers jours"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "fastingMethod": "Méthode de jeûne",
+    "protocol": "Protocole",
+    "protocolDesc": "18 heures de jeûne, 6 heures de repas",
+    "defaultStartTime": "Heure de début habituelle",
+    "hour": "Heure",
+    "minutes": "Minutes",
+    "language": "Langue",
+    "about": "À propos",
+    "version": "Version"
+  },
+  "languages": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français"
+  },
+  "fasting": {
+    "hunger": {
+      "none": "Nulle",
+      "minimal": "Minimale",
+      "minimal_none": "Minimale ou absente",
+      "may_increase": "Peut augmenter légèrement",
+      "variable": "Variable",
+      "very_low": "Très basse",
+      "absent": "Absente"
+    },
+    "energy": {
+      "stable": "Stable",
+      "excellent": "Excellente",
+      "peak": "Pic maximal",
+      "dip_possible": "Dip possible",
+      "stable_clear": "Stable et claire",
+      "optimal": "Optimale",
+      "wellbeing": "Bien-être complet",
+      "patience_required": "Avec patience requise"
+    },
+    "hydration": {
+      "regular": "Eau régulière",
+      "water_electrolytes": "Eau + électrolytes légers si activité",
+      "water_tea": "Eau + café/thé sans sucre possible",
+      "water_electrolytes_important": "Eau + électrolytes importants",
+      "water_electrolytes_essential": "Eau + électrolytes essentiels",
+      "water_electrolytes_critical": "Eau + électrolytes très importants",
+      "water_electrolytes_mandatory": "Eau + électrolytes NON-NÉGOCIABLES",
+      "electrolytes_critical": "Électrolytes CRITIQUES et obligatoires"
+    },
+    "activity": {
+      "light": "Légère (marche, ménage)",
+      "moderate": "Modérée (marche, ménage)",
+      "moderate_good": "Modérée à bonne (sport, marche)",
+      "optimal": "OPTIMAL - Sport modéré, musculation légère",
+      "very_light": "Très légère (yoga, étirements, marche douce)",
+      "light_yoga": "Légère (yoga, marche modérée)",
+      "very_light_relax": "Très légère (méditation, yoga très doux)",
+      "rest": "Repos complet recommandé",
+      "none": "Aucune - Repos complet"
+    },
+    "phases": {
+      "phase_0": {
+        "nom": "Fin du dernier repas",
+        "duree": "Heure 0",
+        "metabolisme": {
+          "processus_principal": "Fin de l'absorption alimentaire",
+          "details": [
+            "Arrêt de l'absorption",
+            "Insuline commence à baisser progressivement",
+            "Hormones de faim (ghréline) restent basses",
+            "Première phase digestive en cours"
+          ]
+        },
+        "conseils": [
+          "Terminer le repas sans sucres rapides",
+          "Éviter le stress immédiatement après",
+          "Prévoir une activité légère (marche) si possible"
+        ]
+      },
+      "phase_1_2": {
+        "nom": "Phase post-prandiale",
+        "duree": "1 à 2 Heures",
+        "metabolisme": {
+          "processus_principal": "Digestion active",
+          "details": [
+            "Digestion des derniers aliments",
+            "Glucose sanguin encore élevé",
+            "Insuline toujours présente",
+            "Pas encore de jeûne 'réel'"
+          ]
+        },
+        "conseils": [
+          "Rester actif (marche, ménage) pour consommer le glucose",
+          "Boire de l'eau régulièrement",
+          "Ne pas consommer de caféine (trop tôt)"
+        ]
+      },
+      "phase_2_4": {
+        "nom": "Entrée en glycogénolyse",
+        "duree": "2 à 4 Heures",
+        "metabolisme": {
+          "processus_principal": "Mobilisation des réserves de glucose hépatique",
+          "details": [
+            "Fin de la digestion",
+            "Insuline chute rapidement",
+            "Foie libère du glucose de ses réserves (glycogène)",
+            "Énergie stable",
+            "État anabolique (réparation tissulaire)"
+          ]
+        },
+        "conseils": [
+          "Moment excellent pour activité modérée (sport, marche)",
+          "Boire de l'eau + électrolytes légers si activité",
+          "Café ou thé sans sucre si énergie demandée",
+          "La faim minimale est normale"
+        ]
+      },
+      "phase_4_8": {
+        "nom": "Fin de la glycogénolyse",
+        "duree": "4 à 8 Heures",
+        "metabolisme": {
+          "processus_principal": "Épuisement des réserves hépatiques",
+          "details": [
+            "Réserves hépatiques de glycogène s'épuisent",
+            "Cortisol et adrénaline commencent à monter",
+            "Premiers acides gras libérés du tissu adipeux",
+            "Pic possible de ghréline (faim)"
+          ]
+        },
+        "conseils": [
+          "MEILLEUR MOMENT pour entraînement sportif modéré",
+          "Rester bien hydraté",
+          "Éviter les repas de 'récompense' anticipée",
+          "Café ou thé peut aider si faim",
+          "Énergie mentale : idéal pour travail créatif"
+        ]
+      },
+      "phase_8_12": {
+        "nom": "Transition vers lipolyse",
+        "duree": "8 à 12 Heures",
+        "metabolisme": {
+          "processus_principal": "Basculement vers métabolisme des graisses",
+          "details": [
+            "Glycogène hépatique largement épuisé",
+            "Augmentation nette des acides gras libres",
+            "Gluconéogenèse s'accélère",
+            "Possible légère fatigue",
+            "Faim variable"
+          ]
+        },
+        "conseils": [
+          "Éviter entraînement intense (risque de fatigue)",
+          "Activité légère : marche, étirements, yoga",
+          "Hydratation cruciale + électrolytes (sodium, potassium)",
+          "Se distraire (travail, lecture, socialisation)",
+          "Thé ou café sans sucre tolérés",
+          "Si fatigue : repos, éviter décisions importantes"
+        ]
+      },
+      "phase_12_16": {
+        "nom": "Pic de lipolyse",
+        "duree": "12 à 16 Heures",
+        "metabolisme": {
+          "processus_principal": "Mobilisation maximale des graisses",
+          "details": [
+            "Mobilisation maximale des graisses stockées",
+            "Acides gras alimentent foie et muscles",
+            "Premiers corps cétoniques produits",
+            "Sensation souvent d'énergie stable",
+            "Faim minimale ou absente",
+            "Mental très clair"
+          ]
+        },
+        "conseils": [
+          "ZONE DE CONFORT DU JEÛNE : profiter de l'absence de faim",
+          "Activité légère possible (yoga, marche modérée)",
+          "Eau + électrolytes essentiels",
+          "Café/thé excellent pour maintenir l'état",
+          "Idéal pour tâches mentales exigeantes",
+          "Ne pas trop anticiper la rupture (rester patient)"
+        ]
+      },
+      "phase_16_20": {
+        "nom": "Installation de la cétose",
+        "duree": "16 à 20 Heures",
+        "metabolisme": {
+          "processus_principal": "Cétose nutritionnelle bien établie",
+          "details": [
+            "Cétose nutritionnelle bien établie",
+            "Cétones (acétoacétate, bêta-hydroxybutyrate) utilisées par cerveau",
+            "Muscles brûlent acides gras et cétones",
+            "Peu ou pas de glucose utilisé",
+            "Faim minimale",
+            "Énergie stable",
+            "Clarté mentale maximale",
+            "Légère euphorie possible"
+          ]
+        },
+        "conseils": [
+          "MARQUE DU JEÛNE OPTIMAL pour la majorité",
+          "Activité légère seulement",
+          "Hydratation + électrolytes très importants",
+          "Méditation ou activités relaxantes idéales",
+          "Éviter l'alcool",
+          "Pas de besoin urgent de manger : c'est bon signe"
+        ]
+      },
+      "phase_20_24": {
+        "nom": "Cétose profonde",
+        "duree": "20 à 24 Heures",
+        "metabolisme": {
+          "processus_principal": "Cétose à son apogée avec autophagie",
+          "details": [
+            "Cétose à son apogée",
+            "Très peu d'insuline circulante",
+            "Métabolisme des graisses à 100%",
+            "Autophagie activée (nettoyage cellulaire)",
+            "Faim complètement disparue",
+            "Bien-être général souvent rapporté",
+            "Effets anti-inflammatoires maximums"
+          ]
+        },
+        "conseils": [
+          "AUTOPHAGIE ACTIVÉE - Repos optimal : le corps se 'nettoie'",
+          "Hydratation + électrolytes NON-NÉGOCIABLES",
+          "Activités relaxantes (méditation, lecture, sommeil)",
+          "Zéro tentation alimentaire : ranger les aliments",
+          "Journal mental : noter l'absence de faim",
+          "Effets détox maximums"
+        ]
+      },
+      "phase_24_36": {
+        "nom": "Jeûne prolongé",
+        "duree": "24 à 36 Heures",
+        "metabolisme": {
+          "processus_principal": "Cétose maintenue avec intensification de l'autophagie",
+          "details": [
+            "Cétose maintenue",
+            "Réserves graisseuses toujours mobilisées",
+            "Autophagie intensifiée (détoxication cellulaire)",
+            "Hormones de jeûne bien régulées",
+            "Faim souvent très basse",
+            "Adaptation du corps complète"
+          ]
+        },
+        "conseils": [
+          "RÉSERVÉ aux personnes expérimentées",
+          "Électrolytes deviennent critiques et obligatoires",
+          "Sommeil peut être affecté (cortisol élevé le soir)",
+          "Repos physique complet recommandé",
+          "Écouter son corps (fatigue excessive = s'arrêter)",
+          "Aucune activité intense"
+        ]
+      }
+    }
+  }
+}

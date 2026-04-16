@@ -1,0 +1,293 @@
+{
+  "app": {
+    "title": "SilentFasting"
+  },
+  "timer": {
+    "statusReady": "Listo para comenzar",
+    "statusRunning": "En progreso",
+    "statusCompleted": "Ayuno completado!",
+    "startFasting": "Iniciar ayuno",
+    "stopFasting": "Detener",
+    "newFast": "Nuevo ayuno",
+    "goalReached": "Objetivo alcanzado!",
+    "elapsed": "Transcurrido",
+    "progress": "Progreso"
+  },
+  "manualForm": {
+    "title": "Agregar ayuno pasado",
+    "startTime": "Hora de inicio",
+    "endTime": "Hora de fin",
+    "fastEnded": "Ayuno terminado",
+    "duration": "Duración",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "history": {
+    "title": "Historial",
+    "empty": "No hay ayunos registrados",
+    "duration": "Duración",
+    "completed": "Completado",
+    "inProgress": "En progreso",
+    "delete": "Eliminar"
+  },
+  "stats": {
+    "title": "Estadísticas",
+    "completedFasts": "Ayunos completados",
+    "averageDuration": "Duración promedio",
+    "last7Days": "Últimos 7 días"
+  },
+  "settings": {
+    "title": "Configuración",
+    "fastingMethod": "Método de ayuno",
+    "protocol": "Protocolo",
+    "protocolDesc": "18 horas de ayuno, 6 horas de comida",
+    "defaultStartTime": "Hora de inicio predeterminada",
+    "hour": "Hora",
+    "minutes": "Minutos",
+    "language": "Idioma",
+    "about": "Acerca de",
+    "version": "Versión"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés"
+  },
+  "fasting": {
+    "hunger": {
+      "none": "Ninguna",
+      "minimal": "Mínima",
+      "minimal_none": "Mínima o ninguna",
+      "may_increase": "Puede aumentar ligeramente",
+      "variable": "Variable",
+      "very_low": "Muy baja",
+      "absent": "Ausente"
+    },
+    "energy": {
+      "stable": "Estable",
+      "excellent": "Excelente",
+      "peak": "Pico máximo",
+      "dip_possible": "Posible bajón",
+      "stable_clear": "Estable y clara",
+      "optimal": "Óptima",
+      "wellbeing": "Bienestar completo",
+      "patience_required": "Con paciencia requerida"
+    },
+    "hydration": {
+      "regular": "Agua regular",
+      "water_electrolytes": "Agua + electrolitos ligeros si hay actividad",
+      "water_tea": "Agua + café/té sin azúcar posible",
+      "water_electrolytes_important": "Agua + electrolitos importantes",
+      "water_electrolytes_essential": "Agua + electrolitos esenciales",
+      "water_electrolytes_critical": "Agua + electrolitos muy importantes",
+      "water_electrolytes_mandatory": "Agua + electrolitos OBLIGATORIOS",
+      "electrolytes_critical": "Electrolitos CRÍTICOS y obligatorios"
+    },
+    "activity": {
+      "light": "Ligera (caminar, limpieza)",
+      "moderate": "Moderada (caminar, limpieza)",
+      "moderate_good": "Moderada a buena (deportes, caminata)",
+      "optimal": "ÓPTIMO - Deportes moderados, pesas ligeras",
+      "very_light": "Muy ligera (yoga, estiramientos, caminata suave)",
+      "light_yoga": "Ligera (yoga, caminata moderada)",
+      "very_light_relax": "Muy ligera (meditación, yoga suave)",
+      "rest": "Descanso completo recomendado",
+      "none": "Ninguna - Descanso completo"
+    },
+    "phases": {
+      "phase_0": {
+        "nom": "Fin de la última comida",
+        "duree": "Hora 0",
+        "metabolisme": {
+          "processus_principal": "Fin de la absorción alimentaria",
+          "details": [
+            "La absorción se detiene",
+            "La insulina comienza a bajar gradualmente",
+            "Las hormonas del hambre (grelina) permanecen bajas",
+            "Primera fase digestiva en curso"
+          ]
+        },
+        "conseils": [
+          "Terminar la comida sin azúcares rápidos",
+          "Evitar el estrés inmediatamente después",
+          "Planificar actividad ligera (caminar) si es posible"
+        ]
+      },
+      "phase_1_2": {
+        "nom": "Fase posprandial",
+        "duree": "1 a 2 Horas",
+        "metabolisme": {
+          "processus_principal": "Digestión activa",
+          "details": [
+            "Digestión de los últimos alimentos",
+            "Azúcar en sangre aún elevado",
+            "Insulina aún presente",
+            "Aún no es ayuno real"
+          ]
+        },
+        "conseils": [
+          "Mantente activo (caminar, limpieza) para consumir glucosa",
+          "Beber agua regularmente",
+          "No consumir cafeína (demasiado temprano)"
+        ]
+      },
+      "phase_2_4": {
+        "nom": "Entrada en glucogenolisis",
+        "duree": "2 a 4 Horas",
+        "metabolisme": {
+          "processus_principal": "Movilización de reservas hepáticas de glucosa",
+          "details": [
+            "Digestión completa",
+            "La insulina baja rápidamente",
+            "El hígado libera glucosa de sus reservas (glucógeno)",
+            "Energía estable",
+            "Estado anabólico (reparación de tejidos)"
+          ]
+        },
+        "conseils": [
+          "Momento excelente para actividad moderada (deportes, caminata)",
+          "Beber agua + electrolitos ligeros si hay actividad",
+          "Café o té sin azúcar si se necesita energía",
+          "El hambre mínima es normal"
+        ]
+      },
+      "phase_4_8": {
+        "nom": "Fin de la glucogenolisis",
+        "duree": "4 a 8 Horas",
+        "metabolisme": {
+          "processus_principal": "Agotamiento de las reservas hepáticas",
+          "details": [
+            "Las reservas hepáticas de glucógeno se agotan",
+            "El cortisol y la adrenalina comienzan a subir",
+            "Primeros ácidos grasos liberados del tejido adiposo",
+            "Posible pico de grelina (hambre)"
+          ]
+        },
+        "conseils": [
+          "MEJOR MOMENTO para entrenamiento deportivo moderado",
+          "Mantenerse bien hidratado",
+          "Evitar comidas de 'recompensa' anticipadas",
+          "El café o té puede ayudar si hay hambre",
+          "Energía mental: ideal para trabajo creativo"
+        ]
+      },
+      "phase_8_12": {
+        "nom": "Transición a lipólisis",
+        "duree": "8 a 12 Horas",
+        "metabolisme": {
+          "processus_principal": "Cambio hacia metabolismo de grasas",
+          "details": [
+            "Glucógeno hepático ampliamente agotado",
+            "Aumento notable de ácidos grasos libres",
+            "Gluconeogénesis se acelera",
+            "Posible fatiga ligera",
+            "Hambre variable"
+          ]
+        },
+        "conseils": [
+          "Evitar entrenamiento intenso (riesgo de fatiga)",
+          "Actividad ligera: caminata, estiramientos, yoga",
+          "Hidratación crucial + electrolitos (sodio, potasio)",
+          "Distraerse (trabajo, lectura, socialización)",
+          "Té o café sin azúcar tolerado",
+          "Si hay fatiga: descansar, evitar decisiones importantes"
+        ]
+      },
+      "phase_12_16": {
+        "nom": "Pico de lipólisis",
+        "duree": "12 a 16 Horas",
+        "metabolisme": {
+          "processus_principal": "Movilización máxima de grasas",
+          "details": [
+            "Movilización máxima de grasas almacenadas",
+            "Ácidos grasos alimentan hígado y músculos",
+            "Primeros cuerpos cetónicos producidos",
+            "Sensación frecuente de energía estable",
+            "Hambre mínima o ausente",
+            "Mente muy clara"
+          ]
+        },
+        "conseils": [
+          "ZONA DE CONFORTO DEL AYUNO: disfrutar de la ausencia de hambre",
+          "Actividad ligera posible (yoga, caminata moderada)",
+          "Agua + electrolitos esenciales",
+          "Café/té excelente para mantener el estado",
+          "Ideal para tareas mentales exigentes",
+          "No anticipar demasiado la ruptura (mantenerse paciente)"
+        ]
+      },
+      "phase_16_20": {
+        "nom": "Instalación de cetosis",
+        "duree": "16 a 20 Horas",
+        "metabolisme": {
+          "processus_principal": "Cetosis nutricional bien establecida",
+          "details": [
+            "Cetosis nutricional bien establecida",
+            "Cetonas (acetoacetato, beta-hidroxibutirato) usadas por el cerebro",
+            "Músculos queman ácidos grasos y cetonas",
+            "Poco o nada de glucosa utilizada",
+            "Hambre mínima",
+            "Energía estable",
+            "Claridad mental máxima",
+            "Euforia ligera posible"
+          ]
+        },
+        "conseils": [
+          "MARCA DEL AYUNO ÓPTIMO para la mayoría",
+          "Solo actividad ligera",
+          "Hidratación + electrolitos muy importantes",
+          "Meditación o actividades relajantes ideales",
+          "Evitar el alcohol",
+          "No hay necesidad urgente de comer: es buena señal"
+        ]
+      },
+      "phase_20_24": {
+        "nom": "Cetosis profunda",
+        "duree": "20 a 24 Horas",
+        "metabolisme": {
+          "processus_principal": "Cetosis en su punto máximo con autofagia",
+          "details": [
+            "Cetosis en su punto máximo",
+            "Muy poca insulina circulante",
+            "Metabolismo de grasas al 100%",
+            "Autofagia activada (limpieza celular)",
+            "Hambre completamente desaparecida",
+            "Bienestar general a menudo reportado",
+            "Efectos antiinflamatorios máximos"
+          ]
+        },
+        "conseils": [
+          "AUTOFAGIA ACTIVADA - Descanso óptimo: el cuerpo se 'limpia'",
+          "Hidratación + electrolitos OBLIGATORIOS",
+          "Actividades relajantes (meditación, lectura, sueño)",
+          "Cero tentación alimentaria: guardar la comida",
+          "Diario mental: anotar la ausencia de hambre",
+          "Efectos desintoxicantes máximos"
+        ]
+      },
+      "phase_24_36": {
+        "nom": "Ayuno prolongado",
+        "duree": "24 a 36 Horas",
+        "metabolisme": {
+          "processus_principal": "Cetosis mantenida con autofagia intensificada",
+          "details": [
+            "Cetosis mantenida",
+            "Reservas de grasa todavía movilizadas",
+            "Autofagia intensificada (desintoxicación celular)",
+            "Hormonas de ayuno bien reguladas",
+            "Hambre a menudo muy baja",
+            "Adaptación del cuerpo completa"
+          ]
+        },
+        "conseils": [
+          "RESERVADO para personas experimentadas",
+          "Electrolitos se vuelven críticos y obligatorios",
+          "El sueño puede verse afectado (cortisol elevado por la noche)",
+          "Descanso físico completo recomendado",
+          "Escuchar al cuerpo (fatiga excesiva = parar)",
+          "Ninguna actividad intensa"
+        ]
+      }
+    }
+  }
+}

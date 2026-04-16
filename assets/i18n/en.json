@@ -1,0 +1,293 @@
+{
+  "app": {
+    "title": "SilentFasting"
+  },
+  "timer": {
+    "statusReady": "Ready to start",
+    "statusRunning": "In progress",
+    "statusCompleted": "Fast completed!",
+    "startFasting": "Start fast",
+    "stopFasting": "Stop",
+    "newFast": "New fast",
+    "goalReached": "Goal reached!",
+    "elapsed": "Elapsed",
+    "progress": "Progress"
+  },
+  "manualForm": {
+    "title": "Add past fast",
+    "startTime": "Start time",
+    "endTime": "End time",
+    "fastEnded": "Fast ended",
+    "duration": "Duration",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No fasts recorded",
+    "duration": "Duration",
+    "completed": "Completed",
+    "inProgress": "In progress",
+    "delete": "Delete"
+  },
+  "stats": {
+    "title": "Statistics",
+    "completedFasts": "Completed fasts",
+    "averageDuration": "Average duration",
+    "last7Days": "Last 7 days"
+  },
+  "settings": {
+    "title": "Settings",
+    "fastingMethod": "Fasting method",
+    "protocol": "Protocol",
+    "protocolDesc": "18 hours fasting, 6 hours eating",
+    "defaultStartTime": "Default start time",
+    "hour": "Hour",
+    "minutes": "Minutes",
+    "language": "Language",
+    "about": "About",
+    "version": "Version"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French"
+  },
+  "fasting": {
+    "hunger": {
+      "none": "None",
+      "minimal": "Minimal",
+      "minimal_none": "Minimal or none",
+      "may_increase": "May increase slightly",
+      "variable": "Variable",
+      "very_low": "Very low",
+      "absent": "Absent"
+    },
+    "energy": {
+      "stable": "Stable",
+      "excellent": "Excellent",
+      "peak": "Peak maximum",
+      "dip_possible": "Possible dip",
+      "stable_clear": "Stable and clear",
+      "optimal": "Optimal",
+      "wellbeing": "Complete well-being",
+      "patience_required": "With patience required"
+    },
+    "hydration": {
+      "regular": "Regular water",
+      "water_electrolytes": "Water + light electrolytes if activity",
+      "water_tea": "Water + sugar-free coffee/tea possible",
+      "water_electrolytes_important": "Water + electrolytes important",
+      "water_electrolytes_essential": "Water + essential electrolytes",
+      "water_electrolytes_critical": "Water + electrolytes very important",
+      "water_electrolytes_mandatory": "Water + electrolytes MANDATORY",
+      "electrolytes_critical": "Electrolytes CRITICAL and mandatory"
+    },
+    "activity": {
+      "light": "Light (walking, housework)",
+      "moderate": "Moderate (walking, housework)",
+      "moderate_good": "Moderate to good (sports, walking)",
+      "optimal": "OPTIMAL - Moderate sports, light weights",
+      "very_light": "Very light (yoga, stretching, gentle walking)",
+      "light_yoga": "Light (yoga, moderate walking)",
+      "very_light_relax": "Very light (meditation, gentle yoga)",
+      "rest": "Complete rest recommended",
+      "none": "None - Complete rest"
+    },
+    "phases": {
+      "phase_0": {
+        "nom": "End of last meal",
+        "duree": "Hour 0",
+        "metabolisme": {
+          "processus_principal": "End of food absorption",
+          "details": [
+            "Absorption stops",
+            "Insulin begins to drop gradually",
+            "Hunger hormones (ghrelin) remain low",
+            "First digestive phase in progress"
+          ]
+        },
+        "conseils": [
+          "Finish the meal without quick sugars",
+          "Avoid stress immediately after",
+          "Plan light activity (walking) if possible"
+        ]
+      },
+      "phase_1_2": {
+        "nom": "Post-prandial phase",
+        "duree": "1 to 2 Hours",
+        "metabolisme": {
+          "processus_principal": "Active digestion",
+          "details": [
+            "Digestion of last foods",
+            "Blood sugar still elevated",
+            "Insulin still present",
+            "Not yet real fasting"
+          ]
+        },
+        "conseils": [
+          "Stay active (walking, housework) to use glucose",
+          "Drink water regularly",
+          "Don't consume caffeine (too early)"
+        ]
+      },
+      "phase_2_4": {
+        "nom": "Entering glycogenolysis",
+        "duree": "2 to 4 Hours",
+        "metabolisme": {
+          "processus_principal": "Mobilization of hepatic glucose reserves",
+          "details": [
+            "Digestion complete",
+            "Insulin drops rapidly",
+            "Liver releases glucose from reserves (glycogen)",
+            "Stable energy",
+            "Anabolic state (tissue repair)"
+          ]
+        },
+        "conseils": [
+          "Excellent time for moderate activity (sports, walking)",
+          "Drink water + light electrolytes if activity",
+          "Sugar-free coffee or tea if energy needed",
+          "Minimal hunger is normal"
+        ]
+      },
+      "phase_4_8": {
+        "nom": "End of glycogenolysis",
+        "duree": "4 to 8 Hours",
+        "metabolisme": {
+          "processus_principal": "Hepatic reserves exhaustion",
+          "details": [
+            "Hepatic glycogen reserves depleting",
+            "Cortisol and adrenaline start rising",
+            "First fatty acids released from adipose tissue",
+            "Possible ghrelin peak (hunger)"
+          ]
+        },
+        "conseils": [
+          "BEST MOMENT for moderate sports training",
+          "Stay well hydrated",
+          "Avoid early 'reward' meals",
+          "Coffee or tea can help if hungry",
+          "Mental energy: ideal for creative work"
+        ]
+      },
+      "phase_8_12": {
+        "nom": "Transition to lipolysis",
+        "duree": "8 to 12 Hours",
+        "metabolisme": {
+          "processus_principal": "Shift to fat metabolism",
+          "details": [
+            "Hepatic glycogen largely depleted",
+            "Significant increase in free fatty acids",
+            "Gluconeogenesis accelerates",
+            "Possible slight fatigue",
+            "Variable hunger"
+          ]
+        },
+        "conseils": [
+          "Avoid intense training (risk of fatigue)",
+          "Light activity: walking, stretching, yoga",
+          "Hydration crucial + electrolytes (sodium, potassium)",
+          "Distract yourself (work, reading, socialization)",
+          "Sugar-free tea or coffee tolerated",
+          "If fatigue: rest, avoid important decisions"
+        ]
+      },
+      "phase_12_16": {
+        "nom": "Peak lipolysis",
+        "duree": "12 to 16 Hours",
+        "metabolisme": {
+          "processus_principal": "Maximum fat mobilization",
+          "details": [
+            "Maximum mobilization of stored fat",
+            "Fatty acids fuel liver and muscles",
+            "First ketone bodies produced",
+            "Often feeling of stable energy",
+            "Minimal or absent hunger",
+            "Very clear mind"
+          ]
+        },
+        "conseils": [
+          "COMFORT ZONE OF FASTING: enjoy the absence of hunger",
+          "Light activity possible (yoga, moderate walking)",
+          "Water + essential electrolytes",
+          "Coffee/tea excellent to maintain state",
+          "Ideal for demanding mental tasks",
+          "Don't anticipate breaking fast too much (stay patient)"
+        ]
+      },
+      "phase_16_20": {
+        "nom": "Ketosis installation",
+        "duree": "16 to 20 Hours",
+        "metabolisme": {
+          "processus_principal": "Nutritional ketosis well established",
+          "details": [
+            "Nutritional ketosis well established",
+            "Ketones (acetoacetate, beta-hydroxybutyrate) used by brain",
+            "Muscles burn fatty acids and ketones",
+            "Little or no glucose used",
+            "Minimal hunger",
+            "Stable energy",
+            "Maximum mental clarity",
+            "Slight euphoria possible"
+          ]
+        },
+        "conseils": [
+          "MARK OF OPTIMAL FASTING for most people",
+          "Light activity only",
+          "Hydration + electrolytes very important",
+          "Meditation or relaxing activities ideal",
+          "Avoid alcohol",
+          "No urgent need to eat: it's a good sign"
+        ]
+      },
+      "phase_20_24": {
+        "nom": "Deep ketosis",
+        "duree": "20 to 24 Hours",
+        "metabolisme": {
+          "processus_principal": "Peak ketosis with autophagy",
+          "details": [
+            "Ketosis at its peak",
+            "Very little circulating insulin",
+            "Fat metabolism at 100%",
+            "Autophagy activated (cellular cleaning)",
+            "Hunger completely gone",
+            "General well-being often reported",
+            "Maximum anti-inflammatory effects"
+          ]
+        },
+        "conseils": [
+          "AUTOPHAGY ACTIVATED - Optimal rest: body is 'cleaning'",
+          "Hydration + electrolytes NON-NEGOTIABLE",
+          "Relaxing activities (meditation, reading, sleep)",
+          "Zero food temptation: put away food",
+          "Mental journal: note the absence of hunger",
+          "Maximum detox effects"
+        ]
+      },
+      "phase_24_36": {
+        "nom": "Prolonged fasting",
+        "duree": "24 to 36 Hours",
+        "metabolisme": {
+          "processus_principal": "Ketosis maintained with intensified autophagy",
+          "details": [
+            "Ketosis maintained",
+            "Fat reserves still being mobilized",
+            "Intensified autophagy (cellular detoxification)",
+            "Fasting hormones well regulated",
+            "Hunger often very low",
+            "Body adaptation complete"
+          ]
+        },
+        "conseils": [
+          "RESERVED for experienced people",
+          "Electrolytes become critical and mandatory",
+          "Sleep may be affected (elevated cortisol in evening)",
+          "Complete physical rest recommended",
+          "Listen to your body (excessive fatigue = stop)",
+          "No intense activity"
+        ]
+      }
+    }
+  }
+}
